@@ -3,7 +3,6 @@
 int PowNumber (int n, int p)
 {
     int res = n;
-    //if (p == 1) res = res*1;
     if (p == 0 && n != 0) res = 1;
     else
     {
